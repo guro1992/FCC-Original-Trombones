@@ -1,0 +1,22 @@
+{
+  "name": "fcc-original-trombones",
+  "version": "1.0.0",
+  "description": "writing for FCC certificate",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass assets/scss/main.scss assets/css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guro1992/FCC-Original-Trombones.git"
+  },
+  "author": "guram dgebuadze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guro1992/FCC-Original-Trombones/issues"
+  },
+  "homepage": "https://github.com/guro1992/FCC-Original-Trombones#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

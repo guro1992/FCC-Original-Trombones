@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+@include font-face('Roboto-Regular', Roboto-Regular);
+
+html {
+    font-size: 62.5%;
+    @include mq('xsmall'){
+        font-size: 40%;
+    }
+    @include mq('small') {
+        font-size: 45%;
+    }
+    @include mq('medium') {
+        font-size: 55%;
+    } 
+    @include mq('large') {
+        font-size: 62.5%;
+    }
+}
+
+body {
+    font: 1.6rem/1.5 Helvetica, sans-serif;
+    background-color: #d3d3d3;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}

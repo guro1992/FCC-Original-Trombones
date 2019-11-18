@@ -5,10 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- freecodecamp cdn link -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <header id="header">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="logo col-sm-5 col-lg-4 mr-auto d-flex justify-content-center">
+                    <img src="assets/images/original_trombones.png" alt="">
+                </div>
+
+                <nav id='nav-bar' class="col-sm-7 col-lg-6 d-flex">
+                    <ul class='mx-auto mx-sm-0 ml-sm-auto'>
+                        <li> <a href="" class="nav-link" id="">Features</a></li>
+                        <li> <a href="" class="nav-link" id="">How It Works</a></li>
+                        <li> <a href="" class="nav-link" id="">Pricing</a></li>
+                    </ul>    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="mx-auto  email">
+        <h2 class="mb-3">Handcrafted, home-made masterpieces</h2>
+        <form action="https://www.freecodecamp.com/email-submit" method="post">
+            <input type="email" name="user-email" id="email" placeholder="Enter your email address" required><br>
+            <input type="submit" value="GET STARTED" class="mt-3">
+        </form>
+    </div>
     
 </body>
 </html>
