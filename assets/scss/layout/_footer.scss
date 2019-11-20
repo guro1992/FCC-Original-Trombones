@@ -1,0 +1,7 @@
+.footer__info {
+    background-color: #a9a9a9;
+    padding: 2rem;
+    @include mq('large') {
+        grid-area: 1/2/1/3;
+    }
+} 
